@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "e82ac47e-cef7-4624-862c-91924aaf9e1f",
+		"name": "Senai.BookStore.WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Autores",
+			"item": [
+				{
+					"name": "Autores.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\" : \"Matheus\",\n\t\"email\": \"Theus_rps@hotmail.com\",\n\t\"ativo\" : 0,\n\t\"dataNascimento\" : \"05/11/2002\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/autores",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

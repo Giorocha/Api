@@ -1,0 +1,14 @@
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\bin\Debug\netcoreapp2.1\Senai.BookStore .ebApi.deps.json
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\bin\Debug\netcoreapp2.1\Senai.BookStore .ebApi.runtimeconfig.json
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\bin\Debug\netcoreapp2.1\Senai.BookStore .ebApi.runtimeconfig.dev.json
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\bin\Debug\netcoreapp2.1\Senai.BookStore .ebApi.dll
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\obj\Debug\netcoreapp2.1\Senai.BookStore .ebApi.csprojAssemblyReference.cache
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\obj\Debug\netcoreapp2.1\Senai.BookStore .ebApi.csproj.CoreCompileInputs.cache
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\obj\Debug\netcoreapp2.1\Senai.BookStore .ebApi.RazorAssemblyInfo.cache
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\obj\Debug\netcoreapp2.1\Senai.BookStore .ebApi.RazorAssemblyInfo.cs
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\obj\Debug\netcoreapp2.1\Senai.BookStore .ebApi.AssemblyInfoInputs.cache
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\obj\Debug\netcoreapp2.1\Senai.BookStore .ebApi.AssemblyInfo.cs
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\obj\Debug\netcoreapp2.1\Senai.BookStore .ebApi.RazorTargetAssemblyInfo.cache
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\bin\Debug\netcoreapp2.1\Senai.BookStore .ebApi.pdb
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\obj\Debug\netcoreapp2.1\Senai.BookStore .ebApi.dll
+C:\Users\43706052881\Documents\Senai 2°semestre\Sprint-2-Backend\Api\Senai.BookStore .ebApi\Senai.BookStore .ebApi\obj\Debug\netcoreapp2.1\Senai.BookStore .ebApi.pdb
