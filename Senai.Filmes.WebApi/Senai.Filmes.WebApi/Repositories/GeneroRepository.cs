@@ -69,8 +69,53 @@ namespace Senai.Filmes.WebApi.Repositories
             }
         }
 
+        public void Deletar(int id)
+        {
+            string Query = "DELETE FROM Generos WHERE IdGenero = @Id";
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                using (SqlCommand cmd = new SqlCommand(Query, con))
+                {
+                    cmd.Parameters.AddWithValue("@Id", id);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
 
-            
+        public GeneroDomain BuscarPorId(int id)
+        {
+            string Query = "SELECT IdGenero, Nome FROM Generos WHERE IdGenero = @IdGenero";
+
+            using (SqlConnection con = new SqlConnection(StringConexao))
+            {
+                con.Open();
+                SqlDataReader sdr;
+
+                using (SqlCommand cmd = new SqlCommand(Query, con))
+                {
+                    cmd.Parameters.AddWithValue("@IdGenero", id);
+                    sdr = cmd.ExecuteReader();
+
+                    if (sdr.HasRows)
+                    {
+                        while (sdr.Read())
+                        {
+                            GeneroDomain genero = new GeneroDomain
+                            {
+                                IdGenero = Convert.ToInt32(sdr["IdGenero"]),
+                                Nome = sdr["Nome"].ToString()
+                            };
+
+                            return genero ;
+                        }
+                    }
+                    return null;
+                }
+            }
+
+        }
+
     }
 
 }

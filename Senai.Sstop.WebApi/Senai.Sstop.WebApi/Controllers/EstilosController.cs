@@ -29,7 +29,6 @@ namespace Senai.Sstop.WebApi.Controllers
         {        
             return EstiloRepository.Listar();
         }
-
         
         [HttpGet("{id}")]
         public IActionResult BuscarPorId (int id)
