@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Senai.Optus.WebApi.Repositories
 {
-    public class EstilosRepository
+    public class EstiloRepository
     {
         public List<Estilos> Listar()
         {

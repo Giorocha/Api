@@ -133,6 +133,108 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Artistas",
+			"item": [
+				{
+					"name": "Artistas.Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/artistas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"artistas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Artistas.Cadastrar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"nome\": \"Mc Gigica\",\n        \"idEstilo\": 1\n\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/artistas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"artistas"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Usuarios.Login",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGF2ZSI6IjAxMjM0NTY3ODkiLCJlbWFpbCI6ImMueUBtYWlsLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBRE1JTklTVFJBRE9SIiwiZXhwIjoxNTY2OTMwMTQxLCJpc3MiOiJHdWZvcy5XZWJBcGkiLCJhdWQiOiJHdWZvcy5XZWJBcGkifQ.O1jec7S4w4omw8hDN_KlEJt3rMSOwlw4yS-5_7pOCC8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\" : \"admin@email.com\",\n\t\"senha\" : \"123456\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }

@@ -37,3 +37,4 @@ INSERT INTO Usuarios (Email, Senha, Permissao) VALUES ('admin@email.com', '12345
 INSERT INTO Usuarios (Email, Senha, Permissao) VALUES ('comum@email.com', '123456', 'COMUM');
 
 select * from Usuarios
+select * from Estilos for json auto

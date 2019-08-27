@@ -1,4 +1,5 @@
-﻿using Senai.Gufos.WebApi.Domains;
+﻿using Microsoft.AspNetCore.Authorization;
+using Senai.Gufos.WebApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ namespace Senai.Gufos.WebApi.Repositories
 {
     public class CategoriaRepository
     {
+        
         public List<Categorias> Listar()
         {
             using (GufosContext ctx = new GufosContext())
@@ -29,7 +31,7 @@ namespace Senai.Gufos.WebApi.Repositories
             }
         }
 
-        // buscar por id
+        
         public Categorias BuscarPorId(int id)
         {
             using (GufosContext ctx = new GufosContext())
