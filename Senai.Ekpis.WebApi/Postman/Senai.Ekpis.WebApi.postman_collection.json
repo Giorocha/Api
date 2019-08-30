@@ -32,7 +32,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"email\" : \"jorge@.com\"\n\t,\"senha\" : \"987654\"\n}\n"
+							"raw": "{\n\t\"email\" : \"elisete@.com\"\n\t,\"senha\" : \"1234\"\n}\n"
 						},
 						"url": {
 							"raw": "http://localhost:5000/api/login",
@@ -282,6 +282,16 @@
 				{
 					"name": "Funcionarios.Listar",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGF2ZSI6IjAxMjM0NTY3ODkiLCJlbWFpbCI6ImVsaXNldGVALmNvbSIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJDT01VTSIsImV4cCI6MTU2NzE4OTc3NywiaXNzIjoiRWtwaXMuV2ViQXBpIiwiYXVkIjoiRWtwaXMuV2ViQXBpIn0.ZAPXNln5eKLnMc02ZS3_Sb6ATe-EYvWjyb5h2klNPw8",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {

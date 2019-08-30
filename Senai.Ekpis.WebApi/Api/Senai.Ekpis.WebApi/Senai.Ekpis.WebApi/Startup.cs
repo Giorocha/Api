@@ -23,6 +23,12 @@ namespace Senai.Ekpis.WebApi
                      options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
                  })
                  .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "Ekpis API", Version = "v1" });
+            });
+
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = "JwtBearer";
@@ -56,7 +62,12 @@ namespace Senai.Ekpis.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ekpis API V1");
+            }
+            );
             app.UseAuthentication();
             app.UseMvc();
         }

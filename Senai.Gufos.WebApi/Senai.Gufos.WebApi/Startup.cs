@@ -25,6 +25,11 @@ namespace Senai.Gufos.WebApi
                })
                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "Gufos API", Version = "v1" });
+            });
+
             // configurar - token - jwt
             // implementar a autenticação
             services.AddAuthentication(options =>
@@ -61,6 +66,15 @@ namespace Senai.Gufos.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Gufos API V1");
+            }
+            );
+            app.UseAuthentication();
+
 
             // habilita a autenticação
             app.UseAuthentication();
