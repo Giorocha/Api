@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -17,10 +19,23 @@ namespace Senai.Ekpis.WebApi.Controllers
     {
         FuncionarioRepository FuncionarioRepository = new FuncionarioRepository();
 
+        [Authorize]
         [HttpGet]
-        public IActionResult Listar()
+        public IActionResult ListarTodos()
         {
-            return Ok(FuncionarioRepository.Listar());
+            var aa = HttpContext.User.Identity as ClaimsIdentity;
+            var id = Convert.ToInt32(aa.Claims.FirstOrDefault(x => x.Type == JwtRegisteredClaimNames.Jti).Value);
+            var role = aa.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value;
+
+
+            if (role == "COMUM")
+            {
+            return Ok(FuncionarioRepository.ListarPorId(id));
+            }
+            else
+            {
+                return Ok(FuncionarioRepository.ListarTodos());
+            }
         }
 
         [Authorize(Roles = "ADMINISTRADOR")]

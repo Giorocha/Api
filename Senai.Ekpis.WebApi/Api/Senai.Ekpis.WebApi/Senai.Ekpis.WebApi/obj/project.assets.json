@@ -12177,11 +12177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Ekpis.WebApi\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi.csproj",
       "projectName": "Senai.Ekpis.WebApi",
-      "projectPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi.csproj",
+      "projectPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Ekpis.WebApi\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi.csproj",
       "packagesPath": "C:\\Users\\43706052881\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Ekpis.WebApi\\Api\\Senai.Ekpis.WebApi\\Senai.Ekpis.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,4 +1,6 @@
-﻿using Senai.Ekpis.WebApi.Domains;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
+using Senai.Ekpis.WebApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +10,21 @@ namespace Senai.Ekpis.WebApi.Repositories
 {
     public class FuncionarioRepository
     {
-        public List<Funcionarios> Listar()
+        
+        public List<Funcionarios> ListarTodos()
         {
             using (EkpisContext ctx = new EkpisContext())
             {
-                return ctx.Funcionarios.ToList();
+                return ctx.Funcionarios.Include(x => x.IdDepartamentoNavigation).Include(x => x.IdCargoNavigation).ToList();
+              
+            }
+        }
+
+        public Funcionarios ListarPorId(int id)
+        {
+            using (EkpisContext ctx = new EkpisContext())
+            {
+                return ctx.Funcionarios.Include(x => x.IdDepartamentoNavigation).Include(x => x.IdCargoNavigation).FirstOrDefault(x => x.IdUsuario == id);
             }
         }
 
