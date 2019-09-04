@@ -55,6 +55,8 @@ namespace Senai.AutoPecas.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {

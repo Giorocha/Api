@@ -28,10 +28,11 @@ create table Usuarios
 	IdUsuario int primary key identity
 	,Email varchar(255) not null unique
 	,Senha varchar (30) not null
+	,Permissao varchar (255) not null
 );
 
-insert into Usuarios (Email, Senha) values ('admin@gmail.com', '123456')
-										      ,('comum@gmail.com', '654321');
+insert into Usuarios (Email, Senha, Permissao) values ('admin@gmail.com', '123456', 'ADMINISTRADOR')
+										      ,('comum@gmail.com', '654321', 'COMUM');
 select * from Usuarios
 
 insert into Fornecedores (CNPJ, RazaoSocial, NomeFantasia, Endereco, IdUsuario) values ('58.797.484/0001-21','Homegrown Rise','Homegrown','Rua Dona Olga, 555',1)
