@@ -19,6 +19,8 @@ namespace Senai.AutoPecas.WebApi.Repositories
             }
         }
 
+ 
+
         public Pecas BuscarPorId(int id)
         {
             using (AutoPecasContext ctx = new AutoPecasContext())

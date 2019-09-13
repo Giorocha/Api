@@ -64,7 +64,7 @@ namespace Senai.AutoPecas.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { mensagem = "Erro ao cadastrar." });
+                return BadRequest(new { mensagem = "Erro ao logar." });
             }
         }
 
