@@ -12287,11 +12287,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Projetos\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi.csproj",
       "projectName": "Senai.Gufos.WebApi",
-      "projectPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi.csproj",
+      "projectPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Projetos\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi.csproj",
       "packagesPath": "C:\\Users\\43706052881\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Projetos\\Senai.Gufos.WebApi\\Senai.Gufos.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

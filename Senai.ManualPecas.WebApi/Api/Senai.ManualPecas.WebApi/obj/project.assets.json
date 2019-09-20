@@ -12713,11 +12713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.ManualPecas.WebApi\\Api\\Senai.ManualPecas.WebApi\\Senai.ManualPecas.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Projetos\\Senai.ManualPecas.WebApi\\Api\\Senai.ManualPecas.WebApi\\Senai.ManualPecas.WebApi.csproj",
       "projectName": "Senai.ManualPecas.WebApi",
-      "projectPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.ManualPecas.WebApi\\Api\\Senai.ManualPecas.WebApi\\Senai.ManualPecas.WebApi.csproj",
+      "projectPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Projetos\\Senai.ManualPecas.WebApi\\Api\\Senai.ManualPecas.WebApi\\Senai.ManualPecas.WebApi.csproj",
       "packagesPath": "C:\\Users\\43706052881\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.ManualPecas.WebApi\\Api\\Senai.ManualPecas.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Projetos\\Senai.ManualPecas.WebApi\\Api\\Senai.ManualPecas.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
