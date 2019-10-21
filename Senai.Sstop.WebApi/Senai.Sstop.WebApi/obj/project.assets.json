@@ -12653,11 +12653,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Projetos\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi.csproj",
       "projectName": "Senai.Sstop.WebApi",
-      "projectPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi.csproj",
+      "projectPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Projetos\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi.csproj",
       "packagesPath": "C:\\Users\\43706052881\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Api\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\43706052881\\Documents\\Senai 2°semestre\\Sprint-2-Backend\\Projetos\\Senai.Sstop.WebApi\\Senai.Sstop.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
