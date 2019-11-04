@@ -23,7 +23,7 @@ namespace Senai.OpFlix.WebApi.Controllers
             LancamentoRepository = new LancamentoRepository();
         }
 
-        [Authorize(Roles = "ADMINISTRADOR")]
+        [Authorize/*(Roles = "CLIENTE")|*/]
         [HttpPost]
         public IActionResult Cadastrar(Lancamentos lancamento)
         {

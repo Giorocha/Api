@@ -19,6 +19,7 @@ namespace Senai.OpFlix.WebApi.Domains
         public int? IdCategoria { get; set; }
         public int? IdClassificao { get; set; }
         public int? IdTipoLancamento { get; set; }
+        public string Imagem { get; set; }
 
         public Categorias IdCategoriaNavigation { get; set; }
         public Classificacoes IdClassificaoNavigation { get; set; }

@@ -60,11 +60,18 @@ CREATE TABLE Lancamentos
 	,IdTipoLancamento	INT FOREIGN KEY REFERENCES TipoLancamento (IdTipoLancamento)
 );
 
+
 ALTER TABLE Lancamentos
 ADD DuracaoMin INT NOT NULL
 
 ALTER TABLE Lancamentos
+ADD Imagem VARCHAR(500) 
+
+ALTER TABLE Lancamentos
 ALTER COLUMN Sinopse VARCHAR(600)
+
+ALTER TABLE Lancamentos
+ALTER COLUMN Imagem TEXT
 
 CREATE TABLE Favoritos
 (

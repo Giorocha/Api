@@ -93,6 +93,10 @@ namespace Senai.OpFlix.WebApi.Domains
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
+                entity.Property(e => e.Imagem)
+                 .HasMaxLength(600)
+                 .IsUnicode(false);
+
                 entity.HasOne(d => d.IdCategoriaNavigation)
                     .WithMany(p => p.Lancamentos)
                     .HasForeignKey(d => d.IdCategoria)

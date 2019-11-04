@@ -12288,11 +12288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Sena-2°semestre\\Sprint-2-Backend\\Projetos\\Senai.OpFlix.WebApi\\Api\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\43706052881\\Documents\\Senai-2-semestre\\Sprint-2-Backend\\Projetos\\Senai.OpFlix.WebApi\\Api\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi.csproj",
       "projectName": "Senai.OpFlix.WebApi",
-      "projectPath": "C:\\Users\\43706052881\\Documents\\Sena-2°semestre\\Sprint-2-Backend\\Projetos\\Senai.OpFlix.WebApi\\Api\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi.csproj",
+      "projectPath": "C:\\Users\\43706052881\\Documents\\Senai-2-semestre\\Sprint-2-Backend\\Projetos\\Senai.OpFlix.WebApi\\Api\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi.csproj",
       "packagesPath": "C:\\Users\\43706052881\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\43706052881\\Documents\\Sena-2°semestre\\Sprint-2-Backend\\Projetos\\Senai.OpFlix.WebApi\\Api\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\43706052881\\Documents\\Senai-2-semestre\\Sprint-2-Backend\\Projetos\\Senai.OpFlix.WebApi\\Api\\Senai.OpFlix.WebApi\\Senai.OpFlix.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

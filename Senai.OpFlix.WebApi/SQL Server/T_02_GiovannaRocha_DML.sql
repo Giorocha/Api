@@ -43,12 +43,13 @@ Mas quando Bonnie adiciona um relutante novo brinquedo chamado Garfinho ao seu q
 Woody quão grande o mundo pode ser para um brinquedo.','100','2019-06-20T00:00:00',2,3,1,1)
 
 DELETE FROM Lancamentos 
-WHERE IdLancamento = 8
+WHERE IdLancamento > 26
 
 UPDATE Lancamentos SET Titulo = 'La Casa de Papel 3° Temporada' WHERE IdLancamento = 7
 
 Update Lancamentos SET DataLancamento = '1994-07-08' WHERE IdLancamento = 6
 Update Lancamentos SET IdPlataforma = 5 WHERE IdLancamento = 6
+UPDATE Lancamentos SET Imagem = 'https://upload.wikimedia.org/wikipedia/pt/thumb/d/de/White_chicks.jpeg/200px-White_chicks.jpeg' WHERE IdLancamento = 29
 
 INSERT INTO Lancamentos (Titulo, Sinopse, DuracaoMin, DataLancamento, IdPlataforma, IdCategoria, IdClassificao, IdTipoLancamento)
 VALUES ('Vingadores Ultimato','Após Thanos eliminar metade das criaturas vivas, os Vingadores precisam lidar com a dor da perda de amigos e seus entes queridos. 
