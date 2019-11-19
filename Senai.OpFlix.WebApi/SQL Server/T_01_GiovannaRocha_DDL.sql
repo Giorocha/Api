@@ -70,8 +70,9 @@ ADD Imagem VARCHAR(500)
 ALTER TABLE Lancamentos
 ALTER COLUMN Sinopse VARCHAR(600)
 
-ALTER TABLE Lancamentos
-ALTER COLUMN Imagem TEXT
+ALTER TABLE Usuarios
+ADD Imagem TEXT
+
 
 CREATE TABLE Favoritos
 (

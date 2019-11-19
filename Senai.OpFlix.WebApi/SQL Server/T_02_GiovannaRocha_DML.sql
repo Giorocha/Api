@@ -24,7 +24,7 @@ VALUES ('https://luizlomba.com.br/posteip/midia/Usuario.png')
        ,('https://conteudo.imguol.com.br/blogs/174/files/2018/05/iStock-648229868-1024x909.jpg')
 	   ,('https://luizlomba.com.br/posteip/midia/Usuario.png')
 
-UPDATE Usuarios SET IdTipoUsuario = 1 WHERE IdUsuario = 3
+UPDATE Usuarios SET Imagem = 'https://luizlomba.com.br/posteip/midia/Usuario.png' WHERE IdUsuario = 4
 
 INSERT INTO Lancamentos (Titulo, Sinopse, DuracaoMin, DataLancamento, IdPlataforma, IdCategoria, IdClassificao, IdTipoLancamento)
 VALUES ('O Rei Leão','O Rei Leão, da Disney, dirigido por Jon Favreau, retrata uma jornada pela savana africana,
@@ -83,3 +83,7 @@ SELECT * FROM TipoLancamento ORDER BY IdTipoLancamento ASC
 SELECT * FROM Usuarios ORDER BY IdUsuario ASC
 SELECT * FROM Lancamentos ORDER BY IdLancamento ASC
 select * from Favoritos
+
+insert into Usuarios (nome, email, senha, IdTipoUsuario, Imagem) values 
+('Giovanna Rocha','gigca@email.com','281619',2 , 'https://scontent.fcgh14-1.fna.fbcdn.net/v/t1.0-9/1461865_517367608359706_767383850_n.jpg?_nc_cat=102&_nc_oc=AQmGYtVEjXGAsea-ZqXNZSoDETmZ-ZYs6bFXRrJhJjQaIcdcMWj460OTHVMiA1S1gFY&_nc_ht=scontent.fcgh14-1.fna&oh=fde4e9d921dc778ba8836b5fdf607d88&oe=5E5DF185'),
+('Rayssa Tavares', 'ray@email.com', '123789', 2, 'https://scontent.fcgh14-1.fna.fbcdn.net/v/t1.0-9/1424421_449140225194817_391076580_n.jpg?_nc_cat=100&_nc_oc=AQkSH7ZEsD0aB09XO8V96NX7yMExCt2E7OYbgK645RE2XjUebEPkpgXmivxMHnTAWkw&_nc_ht=scontent.fcgh14-1.fna&oh=991f4c7cb5b10e1fbb9a96890a93e7ca&oe=5E4E0872')

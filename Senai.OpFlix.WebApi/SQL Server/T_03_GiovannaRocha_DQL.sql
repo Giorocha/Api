@@ -65,3 +65,4 @@ CREATE VIEW vwPlataformas AS
 SELECT IdPlataforma, Titulo, IdCategoria FROM Lancamentos 
 
 SELECT * FROM vwPlataformas WHERE IdPlataforma = 2
+

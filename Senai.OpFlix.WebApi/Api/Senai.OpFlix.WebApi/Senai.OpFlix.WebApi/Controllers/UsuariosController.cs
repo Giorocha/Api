@@ -54,6 +54,8 @@ namespace Senai.OpFlix.WebApi.Controllers
                 {
                     new Claim(JwtRegisteredClaimNames.Email, usuarioBuscado.Email),
                     new Claim(JwtRegisteredClaimNames.Jti, usuarioBuscado.IdUsuario.ToString()),
+                    new Claim("nome", usuarioBuscado.Nome),
+                    new Claim("Imagem",usuarioBuscado.Imagem),
                     // é a permissão do usuário
                     new Claim("Permissao", usuarioBuscado.IdTipoUsuarioNavigation.Tipo)
                 };
